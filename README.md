@@ -47,7 +47,6 @@ OnlineShoppingPrediction/
 ├── purchase_prediction_model.pkl
 ├── purchase_threshold.pkl
 ├── online_shoppers_intention.csv
-├── README.md
 └── model_training.ipynb
 ```
 
