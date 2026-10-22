@@ -47,10 +47,10 @@ OnlineShoppingPrediction/
 ├── purchase_prediction_model.pkl
 ├── purchase_threshold.pkl
 ├── online_shoppers_intention.csv
-└── model_training.ipynb
+└── 01_data_exploration.ipynb
 ```
 
-**Note:** The dataset and notebook filenames above are examples. Keep the actual filenames used in your project.
+
 
 ## 📊 Dataset Description
 
