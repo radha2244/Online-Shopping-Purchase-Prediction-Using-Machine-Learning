@@ -145,15 +145,39 @@ C:\xampp\htdocs\OnlineShoppingPrediction
 
 Open this folder in VS Code.
 
+
 ### Step 2: Install Python Dependencies
 
-Open the VS Code terminal in the project folder and run:
+Open the VS Code terminal in the project folder.
+
+**Option A: Recommended — Use a virtual environment**
+
+Create a virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate it on Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+Install the required libraries:
 
 ```bash
 pip install pandas scikit-learn joblib fastapi uvicorn
 ```
 
-If your project uses a virtual environment, activate it before installing the dependencies.
+**Option B: Use an existing Python environment**
+
+If you already have a suitable Python environment and do not want to create a virtual environment, run:
+
+```bash
+pip install pandas scikit-learn joblib fastapi uvicorn
+```
+
 
 ### Step 3: Start the Python API
 
